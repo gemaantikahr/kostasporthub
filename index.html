@@ -389,51 +389,90 @@
       </div>
     </section>
 
-    <section class="py-12 bg-white rounded-[2.5rem]">
-      <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="text-center mb-12">
-          <div class="flex justify-center items-center gap-1 mb-2">
-            <span class="text-yellow-400 text-xl">★★★★★</span>
-            <span class="text-xl font-black text-dark ml-2">4.9/5</span>
-          </div>
-          <h2 class="text-3xl md:text-5xl font-black text-dark uppercase tracking-tighter">Players Love KOSTA</h2>
+    <section class="py-24 bg-secondary">
+      <div class="max-w-[1440px] mx-auto px-6 lg:px-8">
+
+        <div class="mb-16">
+          <p class="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 ml-1">Testimonials</p>
+          <h2 class="text-5xl lg:text-7xl font-black text-dark tracking-tighter leading-[0.9]">
+            Don't take our word for it!<br>
+            Hear it from our partners.
+          </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-secondary p-8 rounded-3xl">
-            <p class="text-dark font-medium mb-6 italic">"Tempatnya asik banget! Courts are super well-maintained and
-              the vibe is unmatched in Mataram."</p>
-            <div class="flex items-center gap-3">
-              <div class="bg-gray-300 w-10 h-10 rounded-full"></div>
-              <div>
-                <h4 class="font-bold text-dark text-sm">Rizky A.</h4><span
-                  class="text-xs text-gray-500 uppercase font-bold tracking-wider">Padel Enthusiast</span>
-              </div>
+        <!-- Horizontal Scroll Container with Snap -->
+        <div class="flex overflow-x-auto pb-12 gap-8 snap-x snap-mandatory scrollbar-hide -mx-6 px-6 lg:mx-0 lg:px-0">
+
+          <!-- Card 1 -->
+          <div
+            class="min-w-[85vw] md:min-w-[400px] lg:min-w-[28%] bg-white rounded-[2.5rem] p-10 flex flex-col justify-between shadow-sm snap-center h-[500px]">
+            <div>
+              <img src="https://i.pravatar.cc/150?img=68" class="w-16 h-16 rounded-full grayscale mb-8" alt="Portrait">
+              <p class="text-lg font-medium text-dark leading-relaxed">
+                "The community at Kosta is unmatched. It's not just about Padel; it's about the people you meet on the
+                court and the coffee after."
+              </p>
+            </div>
+            <div>
+              <p class="font-script text-4xl text-dark mb-1">Rizky A.</p>
+              <p class="text-xs text-gray-400 font-bold uppercase tracking-widest">Padel Enthusiast</p>
             </div>
           </div>
-          <div class="bg-secondary p-8 rounded-3xl">
-            <p class="text-dark font-medium mb-6 italic">"Honestly the cleanest sports facility I've been to here. Hot
-              showersnya mantap, bathrooms bersih."</p>
-            <div class="flex items-center gap-3">
-              <div class="bg-gray-300 w-10 h-10 rounded-full"></div>
-              <div>
-                <h4 class="font-bold text-dark text-sm">Sarah D.</h4><span
-                  class="text-xs text-gray-500 uppercase font-bold tracking-wider">Lifestyle Blogger</span>
-              </div>
+
+          <!-- Card 2 (Video Highlight) -->
+          <div
+            class="min-w-[85vw] md:min-w-[400px] lg:min-w-[28%] bg-dark rounded-[2.5rem] relative overflow-hidden flex items-center justify-center snap-center h-[500px] group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2669&auto=format&fit=crop"
+              class="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-105"
+              alt="Video Thumb">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+
+            <div
+              class="w-20 h-20 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center z-10 transition-transform duration-300 group-hover:scale-110">
+              <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+
+            <div class="absolute bottom-10 left-10 z-10">
+              <p class="font-script text-5xl text-white mb-2">Sarah D.</p>
+              <p class="text-xs text-white/70 font-bold uppercase tracking-widest">Lifestyle Blogger</p>
             </div>
           </div>
-          <div class="bg-secondary p-8 rounded-3xl">
-            <p class="text-dark font-medium mb-6 italic">"Anaka-anak seneng banget main mini soccer disini. Rumputnya
-              bagus, ga bikin lecet."</p>
-            <div class="flex items-center gap-3">
-              <div class="bg-gray-300 w-10 h-10 rounded-full"></div>
-              <div>
-                <h4 class="font-bold text-dark text-sm">Budi Santoso</h4><span
-                  class="text-xs text-gray-500 uppercase font-bold tracking-wider">Member</span>
-              </div>
+
+          <!-- Card 3 -->
+          <div
+            class="min-w-[85vw] md:min-w-[400px] lg:min-w-[28%] bg-white rounded-[2.5rem] p-10 flex flex-col justify-between shadow-sm snap-center h-[500px]">
+            <div>
+              <img src="https://i.pravatar.cc/150?img=33" class="w-16 h-16 rounded-full grayscale mb-8" alt="Portrait">
+              <p class="text-lg font-medium text-dark leading-relaxed">
+                "Anaka-anak seneng banget main mini soccer disini. Rumputnya bagus, ga bikin lecet. Recommended buat
+                family weekend!"
+              </p>
+            </div>
+            <div>
+              <p class="font-script text-4xl text-dark mb-1">Budi S.</p>
+              <p class="text-xs text-gray-400 font-bold uppercase tracking-widest">Regular Member</p>
             </div>
           </div>
+
+          <!-- Card 4 (Carousel hint) -->
+          <div
+            class="min-w-[85vw] md:min-w-[400px] lg:min-w-[28%] bg-white rounded-[2.5rem] p-10 flex flex-col justify-between shadow-sm snap-center h-[500px] opacity-100">
+            <div>
+              <img src="https://i.pravatar.cc/150?img=12" class="w-16 h-16 rounded-full grayscale mb-8" alt="Portrait">
+              <p class="text-lg font-medium text-dark leading-relaxed">
+                "Honestly the cleanest sports facility I've been to here. Hot showersnya mantap, bathrooms bersih."
+              </p>
+            </div>
+            <div>
+              <p class="font-script text-4xl text-dark mb-1">Putri L.</p>
+              <p class="text-xs text-gray-400 font-bold uppercase tracking-widest">Yoga Instructor</p>
+            </div>
+          </div>
+
         </div>
+
       </div>
     </section>
 
